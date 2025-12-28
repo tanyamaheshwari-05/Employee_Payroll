@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EMPLOYEE PAYROLL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <h2 class="mb-0 me-2 " >
+        <span style="color:rgb(209, 243, 90)">EMPLOYEE  </span>PAYROLL</h2>
+      <img src="data:image/png;base64,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" alt="Logo" width="30" height="30">
+    </a>
+  </div>
+</nav>
+
+
+<div class="container d-flex justify-content-center  mt-5" >
+  <div class="card shadow p-4" style="max-width:60rem;width:100%">
+    <h4 class="text-center mb-4">Employee Payroll Form</h4>
+    <form  action="Table.html" method="get">
+    <!-- Name -->
+    <div class="row align-items-center mb-3">
+      <div class="col-3">
+    <label class="form-label">Name</label>
+      </div>
+      <div class="col-6" style="width:70%">
+    <input type="text" class="form-control ">
+      </div>
+  </div>
+  <!-- Profile -->
+    <div class=" row mb-3">
+      <div class="col-3">
+    <label class="form-label">Profile Image</label>
+      </div>
+      <div class="col-6">
+      <label>
+        <input type="radio" name="profile" class="ms-3">
+        <img src="https://i1.wp.com/s-knights.co.uk/wp-content/uploads/2016/04/avatar-small.jpg" width="17">
+      </label>
+      <label>
+        <input type="radio" name="profile" class="ms-3">
+        <img src="data:image/jpeg;base64,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" width="27">
+      </label>
+      <label>
+        <input type="radio" name="profile" class="ms-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcT8KvhqmSHhWwI2_QXVODDu6RI5akwVa_Tw&s" width="17">
+      </label>
+      <label>
+        <input type="radio" name="profile" class="ms-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKpcV9scjdGRelbvxnQV1myJVE4WQiKIL5Ag&s" width="13">
+      </label>
+    </div>
+      
+  </div>
+  <!-- Gender -->
+  <div class="row mb-3">
+    <div class="col-3">
+    <label class="form-label">Gender</label>
+    </div>
+    <div class="col-6">
+    <input type="radio" name="gender" class="ms-3">
+    <label for="male">Male</label>
+     <input type="radio" name ="gender" class="ms-3">
+     <label for="female">Female</label>
+    </div>
+  </div>
+  <!-- Department -->
+  <div class="row mb-3">
+    <div class="col-3">
+    <label class="form-label">Department</label>
+    </div>
+    <div class="col-6">
+    <input type="checkbox" id="hr" class="ms-3">HR
+      <input type="checkbox" id="sales" class="ms-3">Sales
+        <input type="checkbox" id="finance" class="ms-3">Finance
+          <input type="checkbox" id=" engineer" class="ms-3">Engineer
+            <input type="checkbox" id="others" class="ms-3">Others
+  </div>
+  </div>
+  <!-- Salary -->
+  <div class=" row mb-3">
+    <div class="col-3">
+    <label class="form-label">Salary</label>
+    </div>
+    <div class="col-6">
+    <select class="ms-3 w-auto"><option >Select Salary</option>
+      <option>10,000</option>
+    <option>20,000</option>
+  <option>30,000</option>
+<option>50,000</option>
+</select>
+</div>
+  </div>
+<!-- Start Date -->
+<div class="row mb-3">
+  <div class="col-3">
+  <label class="form-label">Start Date</label>
+  </div>
+  <div class="col-9">
+  <div class="row g-2">
+    <div class="col">
+      <select class="form-select">
+        <option value="">Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+    </div>
+    <div class="col">
+      <select class="form-select">
+        <option value="">Month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>Mar</option>
+        <option>Apr</option>
+        <option>May</option>
+        <option>Jun</option>
+        <option>Jul</option>
+        <option>Aug</option>
+        <option>Sep</option>
+        <option>Oct</option>
+        <option>Nov</option>
+        <option>Dec</option>
+      </select>
+    </div>
+    <div class="col">
+      <select class="form-select">
+        <option value="">Year</option>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2027</option>
+        <option>2028</option>
+        <option>2029</option>
+      </select>
+    </div>
+  </div>
+  </div>
+</div>
+  <!-- Notes -->
+  <div class=" row mb-3">
+    <div class="col-3">
+    <label class="form-label">Notes</label>
+    </div>
+    <div class="col-6" style="width:34">
+    <textarea class="form-control" ></textarea>
+    </div>
+  </div>
+  <!-- Buttons -->
+   
+   <div class="d-flex justify-content-between">
+ <button type="button" class="btn btn-secondary">Cancel</button>
+   <div>
+     <button class="btn btn-secondary me-2 btn-submit" type="submit" style="cursor:pointer;"onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor=''">Submit</button>
+<input class="btn btn-secondary" type="reset" value="Reset">
+   </div>
+   </div>
+</form>
+  </div>
+ </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
