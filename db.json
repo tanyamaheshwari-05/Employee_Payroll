@@ -1,0 +1,21 @@
+{
+  "employees": [
+    {
+      "img": "https://i1.wp.com/s-knights.co.uk/wp-content/uploads/2016/04/avatar-small.jpg",
+      "name": "Priya",
+      "gender": "Male",
+      "department": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "20000",
+      "start_date": [
+        "17",
+        "Oct",
+        "2024"
+      ],
+      "id": "c46f"
+    }
+  ]
+}
