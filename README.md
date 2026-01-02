@@ -2,7 +2,7 @@ Employee Payroll Management System 💼📊
 This repository contains a complete Employee Payroll web application for adding, managing, validating, and displaying employee data.
 
 🛠 Tech Stack
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript, BootStrap 
 
 Backend: JSON Server API
 
