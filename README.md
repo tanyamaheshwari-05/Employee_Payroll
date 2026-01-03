@@ -22,6 +22,7 @@ Add/Update/Delete/Search employee records
 JSON Server API integration for data persistence
 
 Responsive data table with pagination
+![Uploading Screenshot 2026-01-03 100448.png…]()
 
 Reset form functionality
 
