@@ -22,7 +22,7 @@ Add/Update/Delete/Search employee records
 JSON Server API integration for data persistence
 
 Responsive data table with pagination
-![Uploading Screenshot 2026-01-03 100448.png…]()
+<img width="206" height="622" alt="Screenshot 2026-01-03 100448" src="https://github.com/user-attachments/assets/61ad3943-6c97-40bb-ab53-13324c79af1b" />
 
 Reset form functionality
 
@@ -59,20 +59,10 @@ text
 - Automatic data persistence in db.json
 - POST/PUT/GET/DELETE endpoints
 - Started with: npx json-server --watch db.json --port 3000
-📂 Project Structure
-text
-├── Layout
-       ├── Form.html        # Main form 
-├── script.js                # Form validation & API calls
-     ├──DOM
-        ├──DomForm.js
-        ├──DomTable.js
-     ├──jQuery
-        ├──jQuery.js
-        ├──jQueryT.js
-├──index.html 
-├── db.json            # Employee data storage
-└── README.md          # This file
+
+
+   ![Uploading Screenshot 2026-01-03 100448.png…]()
+
 🚀 Quick Start
 Install JSON Server: npm install -g json-server
 
