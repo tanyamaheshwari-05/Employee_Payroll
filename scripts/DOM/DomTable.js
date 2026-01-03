@@ -16,7 +16,7 @@ document.onclick = async (e) => {
   // EDIT
   let editBtn = e.target.closest?.("i")?.closest(".edit-btn");
   if(editBtn) {
-    window.location = `Form.html?id=${editBtn.dataset.id}`;
+    window.location = `./Layout/Form.html?id=${editBtn.dataset.id}`;
     return;
   }
   

@@ -14,7 +14,7 @@ $(document).on('click', async function(e) {
   // EDIT
   let editBtn = $(e.target).closest('i').closest('.edit-btn');
   if(editBtn.length) {
-    window.location = `Form.html?id=${editBtn.data('id')}`;
+    window.location = `./Layout/Form.html?id=${editBtn.data('id')}`;
     return;
   }
   
